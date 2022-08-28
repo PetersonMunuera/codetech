@@ -1,0 +1,88 @@
+.highlights {
+  padding: 50px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1224px;
+  margin: 0 auto;
+
+  h1 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
+
+.productsList {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin: 50px 0;
+
+  li {
+    width: 288px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+
+    header {
+      padding: 15px;
+
+      span {
+        display: inline-block;
+        background: var(--grey-700);
+        width: 50px;
+        height: 14px;
+        border-radius: 8px;
+        border: 1px solid var(--purple-300);
+        
+        font-size: 8px;
+        font-weight: 700;
+        line-height: 12px;
+        text-align: center;
+        color: var(--purple-300);
+      }
+    }
+
+    .productData {
+      display: flex;
+      flex-direction: column;
+      background: var(--grey-800);
+      padding: 15px;
+
+      h1 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+      }
+
+      .rating {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        margin-bottom: 10px;
+      }
+
+      .oldPrice {
+        color: var(--grey-400);
+        font-weight: 500;
+        font-size: 14px;
+        text-decoration: line-through;
+      }
+
+      .currentPrice {
+        font-weight: 600;
+      }
+
+      button {
+        margin: 10px 0;
+        background: var(--button-buy-gradient);
+        border-radius: 4px;
+        height: 38px;
+
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--white);
+      }
+    }
+  }
+}
