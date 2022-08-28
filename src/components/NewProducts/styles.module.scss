@@ -79,4 +79,13 @@
       }
     }
   }
+
+  .seeMore {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    background: var(--grey-600);
+    border-radius: 8px;
+    font-weight: 500;
+  }
 }

@@ -41,6 +41,8 @@ export function NewProducts() {
 
           <ProductsList products={products} />
         </div>
+
+        <button className={styles.seeMore}>Veja mais produtos</button>
       </div>
     </section>
   )
