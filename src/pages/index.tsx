@@ -4,6 +4,7 @@ import { Departments } from "../components/Departments"
 import { Highlights } from "../components/Highlights"
 import { Benefits } from "../components/Benefits"
 import { NewProducts } from "../components/NewProducts"
+import { Recommended } from "../components/Recommended"
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Highlights />
       <Benefits />
       <NewProducts />
+      <Recommended />
     </>
   )
 }
