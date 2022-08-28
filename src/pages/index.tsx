@@ -1,4 +1,5 @@
 import Head from "next/head"
+import { MainBanner } from "../components/MainBanner"
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
         <title>Codetech - Início</title>
       </Head>
 
-      <h1>hello world !</h1>
+      <MainBanner />
     </>
   )
 }

@@ -13,6 +13,8 @@
   --purple-400: #AE16D7;
   --purple-500: #C706FF;
   --blue-500: #754DFD;
+  --dark-gradient: linear-gradient(#000, #280034);
+  --button-gradient: linear-gradient(135deg, #9A4DFF 0%, #F600DD 100%);
 }
 
 * {
@@ -26,6 +28,7 @@ body, input, textarea, select, button {
 }
 
 button {
+  border: none;
   cursor: pointer;
 }
 
