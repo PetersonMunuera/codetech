@@ -8,10 +8,9 @@ export function Highlights() {
 
         <ul className={styles.productsList}>
           <li>
-            <header>
+            <header style={{backgroundImage: 'url(/images/product-1.png)'}}>
               <span>10% OFF</span>
             </header>
-            <img src="/images/product-1.png" alt="Notebook VAIO® FE15 Intel® Core™ i7 Windows 11 Home 8GB 512GB SSD Full HD - Prata" />
             <div className={styles.productData}>
               <h1>Notebook VAIO® FE15 Intel® Core™ i7 Windows 11 Home 8GB 512GB SSD Full HD - Prata</h1>
               <div className={styles.rating}>
@@ -28,10 +27,9 @@ export function Highlights() {
             </div>
           </li>
           <li>
-            <header>
+            <header style={{backgroundImage: 'url(/images/product-1.png)'}}>
               <span>10% OFF</span>
             </header>
-            <img src="/images/product-1.png" alt="Notebook VAIO® FE15 Intel® Core™ i7 Windows 11 Home 8GB 512GB SSD Full HD - Prata" />
             <div className={styles.productData}>
               <h1>Notebook VAIO® FE15 Intel® Core™ i7 Windows 11 Home 8GB 512GB SSD Full HD - Prata</h1>
               <div className={styles.rating}>
@@ -48,10 +46,9 @@ export function Highlights() {
             </div>
           </li>
           <li>
-            <header>
+            <header style={{backgroundImage: 'url(/images/product-1.png)'}}>
               <span>10% OFF</span>
             </header>
-            <img src="/images/product-1.png" alt="Notebook VAIO® FE15 Intel® Core™ i7 Windows 11 Home 8GB 512GB SSD Full HD - Prata" />
             <div className={styles.productData}>
               <h1>Notebook VAIO® FE15 Intel® Core™ i7 Windows 11 Home 8GB 512GB SSD Full HD - Prata</h1>
               <div className={styles.rating}>
@@ -68,10 +65,9 @@ export function Highlights() {
             </div>
           </li>
           <li>
-            <header>
+            <header style={{backgroundImage: 'url(/images/product-1.png)'}}>
               <span>10% OFF</span>
             </header>
-            <img src="/images/product-1.png" alt="Notebook VAIO® FE15 Intel® Core™ i7 Windows 11 Home 8GB 512GB SSD Full HD - Prata" />
             <div className={styles.productData}>
               <h1>Notebook VAIO® FE15 Intel® Core™ i7 Windows 11 Home 8GB 512GB SSD Full HD - Prata</h1>
               <div className={styles.rating}>
