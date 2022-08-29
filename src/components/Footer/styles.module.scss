@@ -1,0 +1,48 @@
+.footer {
+  background: var(--black);
+  padding-top: 60px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1224px;
+  margin: 0 auto;
+
+  .siteMap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: var(--white);
+    
+    h1 {
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+    }
+
+    .payments {
+      h1 {
+        margin-bottom: 26px;
+      }
+    }
+  }
+
+  .stamp {
+    text-align: end;
+  }
+
+  .copyright {
+    border-top: 1px solid var(--grey-300);
+    padding: 40px 0;
+    margin-top: 20px;
+    
+    color: var(--white);
+    text-align: center;
+  }
+}
