@@ -1,6 +1,10 @@
 .subscribe {
   background: var(--grey-200);
-  padding: 60px 0;
+  padding: 60px 14px;
+
+  @media (max-width: 1250px) {
+    padding: 28px 40px;
+  }
 }
 
 .container {
@@ -12,11 +16,28 @@
   max-width: 1224px;
   margin: 0 auto;
 
+  @media (max-width: 1250px) {
+    flex-direction: column;
+  }
+
+  img {
+    display: none;
+    margin-bottom: 20px;
+
+    @media (max-width: 1250px) {
+      display: block;
+    }
+  }
+
   p {
     max-width: 400px;
     text-align: center;
     color: var(--white);
     font-size: 20px;
+
+    @media (max-width: 1250px) {
+      font-size: 16px;
+    }
   }
 
   .input {
@@ -28,17 +49,41 @@
     border-radius: 12px;
     overflow: hidden;
 
+    @media (max-width: 1250px) {
+      flex-direction: column;
+      gap: 16px;
+      width: 100%;
+      border: none;
+      margin-top: 20px;
+      overflow: visible;
+      height: auto;
+      
+    }
+
     input {
       outline: none;
       border: none;
       padding: 12px 8px;
       width: 460px;
+
+      @media (max-width: 1250px) {
+        width: 100%;
+        border-radius: 6px;
+        height: 38px;
+        font-size: 12px;
+      }
     }
 
     button {
       background: var(--blue-500);
       padding: 0 34px;      
       color: var(--white);
+
+      @media (max-width: 1250px) {
+        border-radius: 6px;
+        height: 38px;
+        font-size: 14px;
+      }
     }
   }
 }

@@ -6,7 +6,7 @@ export function Benefits() {
       <div className={styles.container}>
         <div className={styles.benefit}>
           <img src="/icons/cards.svg" alt="Cartões" />
-          <span>PAGAMENTO COM DOIS CARTÕES</span>
+          <span>PAGAMENTO COM <br/> DOIS CARTÕES</span>
         </div>
         <div className={styles.benefit}>
           <img src="/icons/codebar.svg" alt="10% OFF" />

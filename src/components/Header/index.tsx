@@ -32,6 +32,9 @@ export function Header() {
         </nav>
 
         <div className={styles.menu}>
+          <a href="#" className={styles.menuIcon}>
+            <img src="/icons/menu.svg" alt="Menu" />
+          </a>
           <a href="#">
             <img src="/icons/search.svg" alt="Buscar" />
           </a>
